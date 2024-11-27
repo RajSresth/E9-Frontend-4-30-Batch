@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice table</title>
+</head>
+<body>
+    <table border="1" cellpadding="15px" >
+        <!-- Row-1 -->
+         <tr align="center">
+            <td>A</td>
+            <td rowspan="2">
+                <ul type="square">
+                    <li>Item-1</li>
+                    <li>Item-2</li>
+                    <li>Item-3</li>
+                </ul>
+            </td>
+         </tr>
+
+         <!-- Row-2 -->
+          <tr align="center">
+            <td>B</td>
+          </tr>
+
+          <!-- Row-3 -->
+          <tr align="center">
+            <td colspan="2">C</td>
+          </tr>
+
+          <!-- Row-4 -->
+           <tr align="center">
+            <td>
+                <ul type="circle">
+                    <li>Item-4</li>
+                    <li>Item-5</li>
+                </ul>
+            </td>
+            <td>
+                    <table border="1" cellpadding="15px" rules=all>
+                            <!-- Row-1 -->
+                             <tr align="center">
+                                <th colspan="2">
+                                    Table
+                                </th>
+                             </tr>
+
+                             <!-- Row-2 -->
+                              <tr align="center">
+                                <td rowspan="2">D</td>
+                                <td>E</td>
+                              </tr>
+
+                              <!-- Row-3 -->
+                               <tr align="center">
+                                <td>F</td>
+                               </tr>
+                    </table>
+            </td>
+           </tr>
+    </table>
+</body>
+</html>

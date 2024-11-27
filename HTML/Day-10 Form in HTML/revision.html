@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Revision</title>
+    <style>
+      sup {
+        color: red;
+      }
+
+      fieldset {
+        /* border: none; */
+        width: 160px;
+      }
+
+      textarea{
+        resize: none;
+        /* width: 150px;
+        height: 150px; */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <form action="#" autocomplete="off">
+        <fieldset disabled>
+            Name <input type="text" placeholder="Enter fullname" autofocus > <br><br>
+
+            Email<sup>*</sup> <input type="email" placeholder="xyz@gmail.com" required> <br><br>
+
+            Password<sup>*</sup> <input type="password" placeholder="at least 6 characters" required> <br><br>
+        </fieldset>
+        <fieldset>
+            Search Your Font <br>
+            <input type="range"> <br><br>
+
+            Credit Card <input type="number" style="appearance: textfield;"> <br><br>
+
+            Your Interest <br>
+            <input type="radio" name="interest"> Frontend
+            <input type="radio" name="interest"> Backend
+            <br><br>
+
+            <input type="checkbox"> Are you agree with our T & C. <br><br>
+
+            Company Name <input type="text" value="ITC Infotect" disabled> <br><br>
+
+            Owner Name <input type="text" value="Mr Chombu" readonly> <br><br>
+
+            <button type="submit">Login</button>
+            <button type="reset">Cancel</button>
+        </fieldset>
+    </form> -->
+
+    <form action="#" autocomplete="off">
+      <fieldset>
+        <legend align="center">Registration Form</legend>
+
+        <label for="username"> Name </label>
+        <input
+          type="text"
+          placeholder="Enter Your name"
+          size="20"
+          minlength="2"
+          maxlength="16"
+          id="username"
+        />
+        <br /><br />
+
+        <label for="useremail"> Email<sup>*</sup> </label>
+        <input
+          type="email"
+          placeholder="xyz@gmail.com"
+          required
+          id="useremail"
+        />
+        <br /><br />
+
+       <label for="pass">
+            Password<sup>*</sup>
+       </label>
+        <input type="password" placeholder="at least 8 characters" required id="pass" />
+        <br /><br />
+
+        <!-- Dropdown List -->
+
+        <select name="user-yop">
+            <option value="" selected disabled>--select your yop--</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+        </select>
+        <br><br>
+
+        <!-- Datalist -->
+
+        <input type="text" placeholder="Enter Your State" list="state-list" name="userstate"> <br>
+        
+        <datalist id="state-list">
+            <option value="Uttar Pradesh"></option>
+            <option value="Uttarakhand"></option>
+            <option value="Madhya Pradesh"></option>
+            <option value="Maharashtra"></option>
+            <option value="Andhra Pradesh"></option>
+            <option value="Arunachal Pradesh"></option>
+            <option value="Himachal Pradesh"></option>
+            <option value="Delhi"></option>
+        </datalist>
+        <br><br>
+
+        <label for="">
+            Feedback<sup>*</sup>
+        </label>
+        <textarea name="" id="" rows="10" cols="20" placeholder="Write Something.." required></textarea>
+
+
+
+        <br><br>
+        <button type="submit">Sign In</button>
+        <button type="reset">Cancel</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
+
+<!-- 
+<label for="username">
+    Name
+</label>
+<input type="text" id="username"> -->

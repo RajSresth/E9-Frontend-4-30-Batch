@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form (Part-2)</title>
+    <style>
+        sup{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form action=".php" method="post">
+        <fieldset style="width: 180px;">
+            <legend align="center">
+                <h4>College Sign In</h4>
+            </legend>
+            
+            Name <input type="text" name="user-name" placeholder="Enter Your Name"> <br><br>
+            Mobile <input type="tel" name="mobile-number"> <br><br>
+            Email<sup>*</sup> <input type="email" name="email" required> <br><br>
+
+            Password<sup>*</sup> <input type="password" name="password" required> <br><br>
+            
+            College Name <input type="text" value="AKTU University" disabled> <br><br>
+
+            College Name <input type="text" value="AKTU University" readonly> <br><br>
+            
+            <button>Sign In</button>
+            <button>Cancel</button>
+        </fieldset>
+    </form>
+</body>
+</html>
