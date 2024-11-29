@@ -1,0 +1,57 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1{
+    color: red;
+}
+
+#tag-1{
+    color: orange;
+}
+
+.test{
+    color: salmon;
+} */
+
+/* section{
+    width: 100px;
+    height: 100px;
+    background-color:red;
+} */
+
+
+/* .s1,#s2{
+    color: orange;
+} */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;  /*1536px */
+    height: 100vh; /*731px*/
+}
+
+section{
+    width: 100%;
+    height: 100%;
+}
+
+.hero{
+    background-color: tomato;
+}
+
+.about{
+    background-color: cyan;
+}
+.contact{
+    background-color: violet;
+}
