@@ -1,0 +1,32 @@
+/* section .ptag{
+    color: magenta;
+} */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+section{
+    width: 100%;
+    height: 80%;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+}
+section>div{
+    width: 500px;
+    height: 400px;
+    background-color: lightseagreen;
+}
+
+section>.tag2{
+    background-color: yellowgreen;
+}
