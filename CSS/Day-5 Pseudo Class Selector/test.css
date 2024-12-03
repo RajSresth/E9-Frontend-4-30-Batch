@@ -1,0 +1,18 @@
+div{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
+
+div:hover{
+    background-color: deepskyblue;
+
+}
+
+a{
+    font-size: 55px;
+}
+
+a:hover{
+    color: green;
+}

@@ -1,0 +1,26 @@
+/* article :first-child{
+    color: red;
+}
+
+article :last-child{
+    color: blue;
+}
+
+article :nth-child(3)
+{
+    color: purple;
+} */
+
+
+section>article:first-child>div:nth-child(2){
+    color: tomato;
+}
+
+section :nth-child(2) :last-child{
+    color: magenta;
+}
+
+section :last-child :first-child{
+    color: teal;
+}
+
