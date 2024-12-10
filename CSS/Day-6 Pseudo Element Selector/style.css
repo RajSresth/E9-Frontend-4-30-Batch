@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+/* div::first-letter{
+    color: red;
+    font-size: 30px;
+    font-style: italic;
+}
+
+p::first-line{
+    color: peru;
+    font-size: 20px;
+    font-style: italic;
+}
+
+*::selection{
+    background-color: green;
+    color: white;
+}
+
+
+ol li::marker{
+    content: "❤️ ";    
+}
+
+ul li:nth-child(odd)::marker{
+    content: "🤢 ";
+} */
+
+div::before{
+    content: "Jai ";
+    color: orange;
+}
+
+div::after{
+    content: " Ram";
+    color: orange;
+}

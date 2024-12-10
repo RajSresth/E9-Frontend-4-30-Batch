@@ -1,0 +1,27 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    width: 800px;
+    height: 500px;
+    background-color: turquoise;
+    background-image: url('https://t3.ftcdn.net/jpg/04/15/00/26/360_F_415002635_o4zhlqfJwku1jmfr8TaoANDRyaCgo8xT.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px 250px;
+    background-position:center center;
+}
+

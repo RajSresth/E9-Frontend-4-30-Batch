@@ -1,0 +1,46 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+   
+}
+
+.section-1{
+    background-image: url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian-fkp-37/2023/over_d.jpg');
+    background-attachment: fixed;
+}
+.section-2{
+    background-image: url('https://www.dadamotors.com/all/superadmin/carimage1/mahindra-thar-1.webp');
+}
+.section-3{
+    background-image: url('https://www.motortrend.com/files/667f3bb91f86b900083cc0ad/2025toyotagrsuprasportscar-7.jpg?w=768&width=768&q=75&format=webp');
+    background-attachment: fixed;
+}
+
+.section-4{
+    background-image: url('https://www.timesbull.com/wp-content/uploads/2024/09/Mahindra-Scorpio-Classic-1200x675.webp');
+}
+
+.section-5{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG4knQoXDZq6a4on-x6pBEDSIkZF4Ez_Hnow&s');
+    background-attachment: fixed;
+}
+.section-6{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW915mbCbuOIE5_O6MX6qTRtw8n8xGayv2tQ&s');
+}

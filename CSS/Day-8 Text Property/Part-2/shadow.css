@@ -1,0 +1,23 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 125px;
+}
+div{
+    text-shadow: -300px -200px 0px orange,
+                 300px 200px 0px green;
+}

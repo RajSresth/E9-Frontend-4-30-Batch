@@ -1,0 +1,42 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    width: 800px;
+    height: 500px;
+    background-color: rgb(164, 239, 227);
+    padding: 25px 50px;
+}
+
+div h2{
+    font-size: 45px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline orangered;
+    /* text-underline-position: under; */
+    text-underline-offset: -40px;
+    /* letter-spacing: 20px; */
+    word-spacing: 20px;
+    -webkit-text-stroke: 1.25px black;
+    color: transparent;
+}
+div p{
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: justify;
+    line-height: 50px;
+}
