@@ -1,0 +1,30 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+div{
+    font-size: 100px;
+    color: transparent;
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGXmRQF4LGkgQwyUi1t11eKnvJ7Ke1o-A5kA&s');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    background-clip: text;
+    /* background-image:linear-gradient(to left,rgb(104, 222, 243),rgb(237, 157, 237)); */
+    /* background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); */
+
+    background-image: linear-gradient(rgba(255, 255, 255, 0.64) 45%,rgba(255, 255, 255, 0.851) 65%);
+}

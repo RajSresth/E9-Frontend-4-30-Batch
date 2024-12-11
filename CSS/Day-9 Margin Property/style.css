@@ -1,0 +1,36 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+section{
+    width:100% ;
+    height: 80%;
+    background-color: tomato;
+    overflow: hidden;
+}
+
+section .card{
+    width: 350px;
+    height: 400px;
+    background-color: lightseagreen;
+    margin:100px auto 0px;
+
+}
+
+.card .profile{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    margin:auto;
+    background-image: url('../../HTML/');
+}
