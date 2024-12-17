@@ -1,0 +1,46 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent{
+    width: 1200px;
+    height: 600px;
+    background-color: lightblue;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    
+}
+
+.child{
+    width: 300px;
+    height: 200px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent :nth-child(odd){
+    background-color: yellow;
+}
+.parent :nth-child(even){
+    background-color: deeppink;
+    color: white;
+}
