@@ -1,0 +1,55 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex{
+    display: flex;  /* ye apkke parent container ko block level element bana deta hai*/
+    align-items: center;
+    justify-content: center;
+}
+.inline-flex{
+    display: inline-flex;  /* ye apke parent container ko as an inline-block level element bana deta hai*/
+    align-items: center;
+    justify-content: center;
+}
+/* Section -1 */
+#s1{
+    width: 600px;
+    height: 400px;
+    background-color: lightcoral;
+}
+#s2{
+    width: 600px;
+    height: 400px;
+    background-color: lightblue;
+}
+
+#s1 .child,
+#s2 .child{
+    width: 150px;
+    height: 150px;
+    font-size: 35px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.child-1{
+    background-color: purple;
+    color: white;
+}
+
+.child-2{
+    background-color: dodgerblue;
+    color: white;
+}
