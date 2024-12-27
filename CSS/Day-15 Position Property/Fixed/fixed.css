@@ -1,0 +1,116 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+   
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+    position: relative;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px 0px 150px;
+    position: fixed;
+}
+
+header .logo{
+    font-size: 40px;
+    color: white;
+}
+
+header nav{
+    display: flex;
+    gap: 0px 20px;
+    font-size: 22px;
+}
+header nav a{
+    padding: 0px 20px;
+    color: white;
+}
+
+
+section{
+    width: 100%;
+    height:fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 150px 150px 0px;
+    background-color: rgb(111, 213, 254);
+}
+section h2{
+    font-size: 75px;
+    margin-bottom: 10px;
+}
+
+section p{
+    font-size: 28px;
+    text-align: justify;
+    padding: 20px 30px;
+}
+
+
+#contact{
+    background-color: wheat;
+}
+
+#skills{
+    background-color: darkorange;
+    
+}
+
+#about{
+    background-color: rgb(245, 183, 245);
+    display: flex;
+    flex-direction: row;
+    gap: 0px 150px;
+    position: relative;
+}
+
+#about h2{
+    font-size: 50px;
+}
+
+#about p{
+    font-size: 25px;
+}
+
+#about .left{
+    width: 60%;
+    height: 100%;
+    /* background-color: teal; */
+}
+
+#about .right{
+    width: 40%;
+    height: 100%;
+    /* background-color: tomato; */
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 150px;
+    right: 50px;
+    z-index: 10;
+    overflow: hidden;
+}
+
+#about .right img{
+    object-fit: cover;
+    object-position: top center;
+    width: 100%;
+    height: 80%;
+}
